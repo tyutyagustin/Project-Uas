@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+input[type=submit] {
+  width: 8%;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 4px;}
+  
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  input[type=button] {
+    width: 8%;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+   
+  }
+  
+  input[type=button]:hover {
+    background-color: #45a049;
+  }
+
+
+.show{
+    display: inline;
+ 
+}
+
+.hide{
+    display: none;
+}
+
+
+
+  .btn-blue {
+    @apply bg-blue-800 text-white;
+  
+  }
+  
+
+  .text{
+    @apply  bg-gray-50 border border-gray-300 
+    text-gray-900 text-sm rounded-lg 
+    focus:ring-blue-800 focus:border-blue-800 
+    block w-full p-3.5 
+    dark:bg-gray-500 
+    dark:border-gray-600 
+    dark:placeholder-gray-400 
+    dark:text-black
+    dark:focus:ring-blue-400 
+    dark:focus:border-blue-400
+  }
+  
+.box{
+  @apply max-w-sm bg-white 
+  border border-gray-800 rounded-lg 
+  shadow dark:bg-gray-500 
+  dark:border-gray-300
+
+  
+}
+.boxInput{
+}
+.row-btn{
+  margin-top:15px !important;
+}
+.desc{
+  text-align: justify;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470');
+}
